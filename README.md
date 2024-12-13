@@ -24,29 +24,20 @@ Before you begin, ensure that you have met the following requirements:
 
 ## Installation
 
-Follow these steps to set up the project on your local machine:
+1. **Start quick installation script**
+```
+source <(https://raw.githubusercontent.com/ryzwan29/vana-datapig/main/quick-installation.sh)
+```
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ganjsmoke/datapig-xyz.git
-   cd datapig-xyz
-   ```
-2. **Install Dependencies**:
-  ```bash
-  npm install
-  ```
-
-3. **Setup private_keys.txt**
+2. **Setup private_keys.txt**
    
 Create a file named private_keys.txt in the root directory of the project. REF_CODE is the account that referes you
 ```bash
-<PRIVATE_KEY_1>,<REF_CODE_1>
-<PRIVATE_KEY_2>,<REF_CODE_2>
+PRIVATE_KEY_1, REF_CODE_1
+PRIVATE_KEY_2, REF_CODE_2
 ```
 
----
-
-## Running Bot
+3. **Running bot**
 
 Once you've completed the setup, you can run the bot with the following command:
 
