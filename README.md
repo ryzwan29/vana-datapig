@@ -26,7 +26,7 @@ Before you begin, ensure that you have met the following requirements:
 
 1. **Start quick installation script**
 ```
-source <(https://raw.githubusercontent.com/ryzwan29/vana-datapig/main/quick-installation.sh)
+source <(curl -s https://raw.githubusercontent.com/ryzwan29/vana-datapig/main/quick-installation.sh)
 ```
 
 2. **Setup private_keys.txt**
